@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "HTML Source Sender",
+  "version": "1.0.0",
+  "description": "Send the HTML source of the current page to a specified URL",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Send HTML Source"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
